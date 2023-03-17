@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kenwood-tavern/static/css/main.5fd23868.css",
+    "main.css": "/kenwood-tavern/static/css/main.315de51f.css",
     "main.js": "/kenwood-tavern/static/js/main.48b96c90.js",
     "static/media/circle-with-border.png": "/kenwood-tavern/static/media/circle-with-border.678950845f04ddeb7961.png",
     "static/media/logo.png": "/kenwood-tavern/static/media/logo.4416f11a078dadecfd76.png",
     "static/media/instagram.svg": "/kenwood-tavern/static/media/instagram.6ed2cb5264b2240800b4eca149b65721.svg",
     "index.html": "/kenwood-tavern/index.html",
-    "main.5fd23868.css.map": "/kenwood-tavern/static/css/main.5fd23868.css.map",
+    "main.315de51f.css.map": "/kenwood-tavern/static/css/main.315de51f.css.map",
     "main.48b96c90.js.map": "/kenwood-tavern/static/js/main.48b96c90.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fd23868.css",
+    "static/css/main.315de51f.css",
     "static/js/main.48b96c90.js"
   ]
 }
