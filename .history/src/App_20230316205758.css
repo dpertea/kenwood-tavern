@@ -1,0 +1,271 @@
+.App {
+  text-align: center;
+  font-family: Calibre, Arial;
+  height: 100vh;
+}
+
+#welcome {
+  position: relative;
+  bottom: 5px;
+}
+
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+}
+
+ h2 {
+  font-size: 30px;
+ 
+}
+
+br {
+  height: 10px;
+}
+
+.landingWrapper {
+  padding: 30px;
+  background-color: rgb(245, 245, 245);
+  height: 100%;
+}
+
+.light-grey-back {
+  background-color: #abb8c3;
+}
+
+#headerWrapper {
+  padding: 50px; /* for normal logo */
+  /*height: 340px; /* with circle logo*/
+
+}
+
+.pastel-red {
+  background-color: #f9dbc1;
+}
+
+.pastel-green {
+  background-color: #f8fecf;
+}
+
+.pastel-blue {
+  background-color: #eeeffe;
+}
+
+#headerLogo {
+  width: 375px;
+}
+
+#hours-list-wrapper {
+  width: 100%;
+  /*border: 2px solid black;*/
+  position: relative;
+}
+
+#days {
+  text-align: right;
+}
+
+#hours {
+  text-align: left;
+}
+
+#hours-list-wrapper p {
+
+  margin: 8px 0px;
+
+  }
+
+
+.hours-child {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 550;
+  padding: 20px;
+  width: 50%;
+  box-sizing: border-box;
+  margin:0;
+  line-height: 35px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#email-input-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+#email-input {
+  flex-grow: 1;
+  border: 2px solid black;
+  height: 25px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-right: 10px;
+  display: inline-block;
+
+}
+
+#email-input:focus-visible {
+  outline: 2px solid #F2DCA2;
+}
+
+#email-label {
+  display:block;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+#subscribe-header {
+  margin-bottom: 0;
+}
+
+#subscribe {
+  display: inline-block;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+#footer-div {
+  width: 100%;
+  position: relative;
+}
+
+#addressFooter {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}
+
+#emailFooter {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#footer-logo {
+  width: 180px;
+
+}
+
+#footerWrapper p {
+  margin: 5px;
+}
+
+
+#social {
+  padding: 20px;
+}
+
+#insta {
+  width: 50px;
+}
+
+/* fun button !!!*/
+button {
+  --c:  #19a3bf; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+button:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+}
+button:active {
+  /*box-shadow: 0 0 9e9q inset #0009; */
+  background-color: #F2DCA2;/*var(--c);*/
+  color: #fff;
+  box-shadow: -3px -5px;
+  /*box-shadow: 3px 5px;*/
+}
+  /*I LOVE THIS YELLOW */
+  /*background: #F2DCA2;*/
+
+button {
+  font-family: system-ui, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: 2px solid black;
+  box-shadow: 3px 5px;
+}
+
+#social p {
+  font-size: 24px;
+}
+
+
+@media(max-width:  485px) {
+  #headerLogo {
+    width: 100%;
+  }
+}
+
+@media(max-width: 395px) {
+
+
+
+  #social p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+.landingWrapper {
+  padding: 10px;
+
+}
+
+.hours-child {
+  padding: 10px;
+}
+  
+
+}

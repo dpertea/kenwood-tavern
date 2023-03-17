@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  font-family: Calibre, Arial, Helvetica, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+landingWrapper {
+  padding: 20px;
+}
+
+.light-grey-back {
+  background-color: #abb8c3;
+}
+
+#headerWrapper {
+  padding: 30px;
+}
+
+.pastel-red {
+  background-color: #f9dbc1;
+}
+
+.pastel-green {
+  background-color: #f8fecf;
+}
+
+.pastel-blue {
+  background-color: #eeeffe;
+}
+
+#headerLogo {
+  width: 400px;
+}
+
+#hours-list {
+  padding: 2rem 2rem;
+  display: inline-block;
+  
+}
+
+#days {
+  text-align: left;
+}
+
+#hours {
+  text-align: right;
+}
+
+.hours-child {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #headerLogo {
+    width: 90%;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
