@@ -30,7 +30,7 @@ const Landing = () => {
           <img id="insta" src={insta} alt="instagram icon" />
         </a>
         <br />
-        <p>hello@kenwoodtavern.com</p>
+        {/*} <p>hello@kenwoodtavern.com</p>*/}
       </div>
       <Footer />
     </div>

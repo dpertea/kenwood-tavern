@@ -131,9 +131,9 @@ br {
   height: 25px;
   box-sizing: border-box;
   margin-top: 1px;
-  margin-right: 10px;
+  margin-right: 20px;
   display: inline-block;
-  width: 300px;
+  width: 400px;
 
 }
 
@@ -162,7 +162,7 @@ br {
 
 #subscribe-section {
   margin: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 #footer-div {
@@ -309,6 +309,12 @@ button:active {
   font-size: 24px;
 }
 
+@media(max-width:  575px) {
+  #email-input {
+    width: 300px;
+  }
+
+}
 
 @media(max-width:  485px) {
   #headerLogo {
