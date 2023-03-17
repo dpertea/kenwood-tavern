@@ -134,12 +134,23 @@ br {
   margin-right: 20px;
   display: inline-block;
   width: 400px;
+  border-radius: 0px !important;
 
 }
 
 #email-input:focus-visible {
-  outline: 4px solid #eeeffe;/*pastel red#f9dbc1, green #f8fecf*/
+  border: 2px solid black !important;
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
 }
+
+#email-input:focus {
+  border: 2px solid black !important;
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
+}
+
+
 
 #email-label {
   display:block;
@@ -323,7 +334,7 @@ button:active {
 
 
 #email-input {
-  width: 200px;
+  width: 220px;
 }
 
   
@@ -333,7 +344,8 @@ button:active {
 @media(max-width: 395px) {
 
   #email-input {
-    width: 150px;
+    width: 180px;
+    margin-right: 10px;
   }
   
 
@@ -363,6 +375,14 @@ button:active {
 
 }
 
+@media(max-width: 395px) {
+
+  #email-input {
+    width: 150px;
+    margin-right: 10px;
+  }
+}
+
 
 
 /*bounce animation*/
@@ -377,4 +397,12 @@ button:active {
 		-ms-transform:     translateY(-15px);
 		transform:         translateY(-15px)
 	}
+}
+
+input {
+  border-radius: 0 !important;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
 }
