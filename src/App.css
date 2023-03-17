@@ -138,7 +138,7 @@ br {
 }
 
 #email-input:focus-visible {
-  outline: 2px solid #F2DCA2;
+  outline: 4px solid #eeeffe;/*pastel red#f9dbc1, green #f8fecf*/
 }
 
 #email-label {
