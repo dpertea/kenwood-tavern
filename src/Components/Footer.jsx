@@ -1,13 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../App.css";
 import circle from "../Images/circle-with-border.png";
 import { firebaseApp } from "../initFirebase";
-import { getDatabase, set, ref } from "firebase/database";
+import { getDatabase, push, ref, set } from "firebase/database";
 
 const db = getDatabase(firebaseApp);
 
 const Footer = () => {
   const [email, setEmail] = useState("");
+  const [success, setSuccess] = useState(false);
+
+  useEffect(() => {
+    if (success) {
+      setTimeout(() => setSuccess(false), 3000);
+    }
+  }, [success]);
+
   return (
     <div id="footerWrapper">
       <div id="subscribe-section">
@@ -22,8 +30,14 @@ const Footer = () => {
             onSubmit={(e) => {
               e.preventDefault();
 
-              set(ref(db, "emails/"), { email });
+              const emailList = ref(db, "emails");
+              const newEmail = push(emailList);
+              set(newEmail, {
+                email,
+              });
+
               setEmail("");
+              setSuccess(true);
             }}
           >
             <div className="input-container">
@@ -41,6 +55,16 @@ const Footer = () => {
               <button type="submit" id="subscribe">
                 SUBSCRIBE
               </button>
+            </div>
+            <div
+              id="confirmSub"
+              style={{
+                opacity: success ? 1 : 0,
+                visibility: success ? "visible" : "hidden",
+                transition: "visibility 1s, opacity 1s linear",
+              }}
+            >
+              You have been subscribed!
             </div>
           </form>
         </div>
