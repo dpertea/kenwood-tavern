@@ -210,6 +210,7 @@ br {
 
 #social {
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 #insta {
@@ -306,6 +307,22 @@ br {
 
 #social p {
   font-size: 24px;
+}
+
+.photoWrapper {
+  position: relative;
+  height: 400px;
+  margin: 10px;
+}
+
+.instaImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  margin: 10px;
 }
 
 @media(max-width:  575px) {
