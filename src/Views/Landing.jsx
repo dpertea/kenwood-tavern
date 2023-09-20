@@ -44,10 +44,10 @@ const Landing = () => {
       <h1>HOURS</h1>
       <div id="hours-list-wrapper">
         <div id="days" className="hours-child">
+          <p>WEDNESDAY</p>
           <p>THURSDAY</p>
           <p>FRIDAY</p>
           <p>SATURDAY</p>
-          <p>SUNDAY</p>
         </div>
         <div id="hours" className="hours-child">
           <p>4PM-12AM</p>
