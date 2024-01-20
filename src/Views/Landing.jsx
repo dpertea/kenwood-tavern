@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 import insta from "../Images/instagram.svg";
+import tote from "../Images/blacktote.png";
 import Footer from "../Components/Footer";
 import axios from "axios";
 import ImageList from "@mui/material/ImageList";
@@ -48,14 +49,25 @@ const Landing = () => {
           <p>THURSDAY</p>
           <p>FRIDAY</p>
           <p>SATURDAY</p>
+          <p>SUNDAY</p>
         </div>
         <div id="hours" className="hours-child">
           <p>4PM-12AM</p>
           <p>4PM-12AM</p>
           <p>4PM-12AM</p>
           <p>4PM-12AM</p>
+          <p>4PM-12AM</p>
         </div>
       </div>
+      <h1>
+        <a
+          href="https://www.etsy.com/shop/kenwoodtavern/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          MERCH
+        </a>
+      </h1>
       <div id="social">
         <a
           href="https://www.instagram.com/kenwood.tavern/"
@@ -67,6 +79,21 @@ const Landing = () => {
         <br />
         {/*} <p>hello@kenwoodtavern.com</p>*/}
       </div>
+      {/*<button
+        onClick={() =>
+          window.open("https://www.etsy.com/shop/kenwoodtavern/", "_blank")
+        }
+      >
+        <div class="box">
+          <a
+            href="https://www.etsy.com/shop/kenwoodtavern/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={tote} style={{ width: "130px" }}></img>
+      </a>*/}
+      {/*</div>
+      </button>*/}
       <Box
         sx={{
           maxWidth: "700px",

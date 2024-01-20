@@ -11,7 +11,7 @@
 
 
 h1 {
-  margin: 10px;
+  margin: 0px;
   font-size: 40px;
 }
 
@@ -173,7 +173,7 @@ br {
 
 #subscribe-section {
   margin: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 #footer-div {
@@ -411,3 +411,30 @@ input {
 input[type="search"] {
   -webkit-appearance: none;
 }
+
+a {
+  color: black;
+  cursor: pointer !important;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a img {
+  cursor: pointer !important;
+}
+
+.box {
+  width: 200px;
+  margin: auto;
+  padding: 5px;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+
+/* animating merch div */
+
