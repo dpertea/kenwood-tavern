@@ -59,6 +59,7 @@ const Landing = () => {
           <p>4PM-12AM</p>
         </div>
       </div>
+      {/*<button style={{ width: "400px" }}>*/}
       <h1>
         <a
           href="https://www.etsy.com/shop/kenwoodtavern/"
@@ -68,6 +69,7 @@ const Landing = () => {
           MERCH
         </a>
       </h1>
+      {/*</button>*/}
       <div id="social">
         <a
           href="https://www.instagram.com/kenwood.tavern/"

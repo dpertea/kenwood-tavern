@@ -284,6 +284,7 @@ br {
   #confirmSub {
     text-align: left;
     animation: Slide_Up 1.2s ease;
+    margin-top: 5px;
   }
 
   @keyframes Slide_Up {
