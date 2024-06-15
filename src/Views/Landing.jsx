@@ -8,6 +8,7 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import Box from "@mui/material/Box";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
+import tshirt from "../Images/kenwood-tshirt.png";
 
 const Landing = () => {
   const [imageLinks, setImageLinks] = useState([]);
@@ -64,15 +65,28 @@ const Landing = () => {
         </div>
       </div>
       {/*<button style={{ width: "400px" }}>*/}
-      <h1>
-        <a
-          href="https://www.etsy.com/shop/kenwoodtavern/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          MERCH
-        </a>
-      </h1>
+      <a
+        href="https://www.etsy.com/shop/kenwoodtavern/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <div id="merch-div">
+          <img
+            src={tshirt}
+            alt-text="tshirt merchandise example"
+            id="merch-ex"
+          ></img>
+          <h1 id="merch-link">
+            <a
+              href="https://www.etsy.com/shop/kenwoodtavern/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              MERCH
+            </a>
+          </h1>
+        </div>
+      </a>
       {/*</button>*/}
       <div id="social">
         <a
