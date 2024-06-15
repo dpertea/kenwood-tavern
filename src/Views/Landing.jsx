@@ -70,7 +70,7 @@ const Landing = () => {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <div id="merch-div">
+        <div>
           <img
             src={tshirt}
             alt-text="tshirt merchandise example"
