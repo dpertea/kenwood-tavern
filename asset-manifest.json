@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.afbff583.css",
-    "main.js": "/static/js/main.7eb80e6a.js",
+    "main.css": "/static/css/main.5d86f904.css",
+    "main.js": "/static/js/main.c14f01f2.js",
     "static/media/circle-with-border.png": "/static/media/circle-with-border.678950845f04ddeb7961.png",
+    "static/media/kenwood-tshirt.png": "/static/media/kenwood-tshirt.499ad26c87ea37c27f91.png",
     "static/media/Mojito.png": "/static/media/Mojito.979953fcf83f391898af.png",
     "static/media/Espresso Martini.png": "/static/media/Espresso Martini.2ae4fe38600bf824d5c8.png",
     "static/media/The Last Word.png": "/static/media/The Last Word.c725596210a0b98f6cc5.png",
@@ -15,11 +16,11 @@
     "static/media/Aperol Spritz.png": "/static/media/Aperol Spritz.f781b4ece6af23e25364.png",
     "static/media/instagram.svg": "/static/media/instagram.6ed2cb5264b2240800b4eca149b65721.svg",
     "index.html": "/index.html",
-    "main.afbff583.css.map": "/static/css/main.afbff583.css.map",
-    "main.7eb80e6a.js.map": "/static/js/main.7eb80e6a.js.map"
+    "main.5d86f904.css.map": "/static/css/main.5d86f904.css.map",
+    "main.c14f01f2.js.map": "/static/js/main.c14f01f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.afbff583.css",
-    "static/js/main.7eb80e6a.js"
+    "static/css/main.5d86f904.css",
+    "static/js/main.c14f01f2.js"
   ]
 }
